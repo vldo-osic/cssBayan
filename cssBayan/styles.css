@@ -2,7 +2,7 @@
     transition: all 0.7s ease-in;
     --app-width: 50%;
     --font-size: 2em;
-    --text-color: rgb(82, 49, 49);
+    --text-color: rgb(37, 19, 19);
 }
 label, input {
     display: none;
@@ -56,6 +56,7 @@ label, input {
     font-size: var(--font-size);
     display: flex;
     justify-content: space-between;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
 }
 .meme__img {
     margin: auto;
