@@ -1,8 +1,8 @@
 * {
-    transition: all 0.7s ease-in;
+    transition: all 0.3s ease-in;
     --app-width: 50%;
     --font-size: 2em;
-    --text-color: rgb(37, 19, 19);
+    --text-color: rgb(74, 43, 43);
 }
 label, input {
     display: none;
@@ -31,7 +31,7 @@ label, input {
 @media (pointer: fine) {
     input:hover ~ .meme__img {
         opacity: 1;
-        height: auto;
+        height: 10em;
     }
 }
 .list, h1 {
